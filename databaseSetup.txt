@@ -1,0 +1,12 @@
+
+Database Setup
+
++-----+-------+-----------------------+-----------------------+------------+
+| ID* |  NRP  |         Nama          |         Email         |  Jurusan   |
++-----+-------+-----------------------+-----------------------+------------+
+|  1  | 00001 | Indica Fathsyah       | indica@horuschild.com | Multimedia |
+|  2  | 00002 | Somebody              | somebody@email.com    | Something  |
++-----+-------+-----------------------+-----------------------+------------+
+
+
+* ID is using auto-increment.
