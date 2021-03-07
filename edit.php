@@ -14,14 +14,14 @@
          echo "
             <script>
                alert('Data berhasil diubah!');
-               document.location.href = 'admin.php';
+               document.location.href = '_home.php';
             </script>
          ";
       } else {
          echo "
             <script>
                alert('Data gagal diubah!');
-               document.location.href = 'admin.php';
+               document.location.href = '_home.php';
             </script>
          ";
       }

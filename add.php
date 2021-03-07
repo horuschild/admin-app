@@ -8,14 +8,14 @@
          echo "
             <script>
                alert('Data berhasil ditambahkan!');
-               document.location.href = 'admin.php';
+               document.location.href = '_home.php';
             </script>
          ";
       } else {
          echo "
             <script>
                alert('Data gagal ditambahkan!');
-               document.location.href = 'admin.php';
+               document.location.href = '_home.php';
             </script>
          ";
       }
