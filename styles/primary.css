@@ -1,0 +1,79 @@
+* {
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background: #e0f1ea;
+}
+table {
+   border: 3px solid seagreen;
+}
+table th, table td{
+   padding: 20px;
+}
+h1 {
+   color: seagreen;
+}
+a {
+   margin-top: 50px;
+   cursor: pointer;
+}
+.title {
+   margin-top: -50px;
+   margin-bottom: 50px; 
+}
+.submit-btn {
+   font-size: 18px;
+   outline: none;
+   color: white;
+   background: seagreen;
+   padding: 15px;
+   border: 3px solid transparent;
+   font-weight: bold;
+   letter-spacing: 1px;
+   border-radius: 10px;
+   cursor: pointer;
+   transition: .3s;
+}
+.submit-btn:hover {
+   color: seagreen;
+   background: #e0f1ea;
+   border: 3px solid seagreen;
+}
+.opt-link {
+   color: seagreen;
+}
+th {
+   background: #56f59c;
+   color: seagreen;
+   letter-spacing: 1px;
+   border: 1px solid seagreen;
+}
+td {
+   background: #d9ffea;
+   border: 1px solid seagreen;
+   color: seagreen;
+}
+.socials {
+   position: absolute;
+   display: flex;
+   bottom: 40px;
+   left: 50px;
+}
+.socials a {
+   color: seagreen;
+   font-size: 35px;
+   margin-right: 40px;
+   opacity: 0.7;
+   transition: .3s;
+}
+.socials a:hover {
+   opacity: 1;
+}
